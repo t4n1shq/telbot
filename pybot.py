@@ -2,8 +2,9 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import random
+impor os
 
-TOKEN: Final = '6505672082:AAFmlvQV-Igz6AqOQQf2ugN0JGs-2OtoKVI'
+TOKEN: Final = os.getenv('BOTTOKEN')#'6505672082:AAFmlvQV-Igz6AqOQQf2ugN0JGs-2OtoKVI'
 BOT_USERNAME: Final = '@Quiz112233bot'
 
 quiz_data = [

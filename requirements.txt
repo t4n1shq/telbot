@@ -1,2 +1,3 @@
 python-telegram-bot
 typing
+gunicorn==19.7.1
